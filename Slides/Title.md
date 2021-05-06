@@ -1,4 +1,4 @@
-![](assets/Help_Logo.png?raw=true)<!-- .element height="70%" width="70%" -->
+![](assets/Help_Logo.png?raw=true)<!-- .element height="40%" width="40%" -->
 
 ### <span style="color:DarkBlue "> HELPing Solve Confusion through probabilistic programming  </span>
 
