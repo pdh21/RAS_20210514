@@ -1,4 +1,4 @@
-# Scientific Simulators
+## Scientific Simulators
 We can write complex simulations to describe phenomena of interest
 
 * Dark matter sims (e.g. Millenium, Illustris, Bluetides etc)
