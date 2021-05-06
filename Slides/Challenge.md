@@ -1,16 +1,39 @@
-# Herschel: Informative and confusing
+# Herschel: Informative yet confusing
+Herschel observations have been key for understanding extragalatic starformation
+* starformation occurs in dense gas clouds containing dust
+* redshifting of dust emission
+* over 1270 deg.$^2$ coverage
+* No planned successor
+
+Note:
+* about half of starlight is absorbed by dust, radiating at infrared wavelengths
+* redshift
+* mix of depths, small, deep fields, large and shallow providing better statistics on rare objects to test galaxy formation scenarios in more detail.
+* with no planned successor in fir, we are going to have to rely on Herschel for FIR. 
 
 
-## What Herschel gives us
-e.g. FIR measurements, dust, SFR, hogh redshift, wide surveys etc
+![](Slides/assets/confusion.gif)<!-- .element height="60%" width="60%"-->
 
-## The challenge: 
-e.g. source confusion, resolution
 
-## Interpretation
-limitation of specific data products, e.g. blind catalogues, extreme starformation
+### Assigning flux to sources
 
-## How do we overcome?
-Given there isnt a FIR facility planned in the mid-future, and althouhg ALMA, SCUBa2, they do not cover the kind of area we have Herschel data for
-we still need to make use of Herschel data,
+|      | Blind                          | Prior driven                       |
+|------|--------------------------------|------------------------------------|
+| Pros | Detects all bright sources     | Distributes flux to known galaxies |
+| Cons | Need to assign flux to sources | Miss unknown sources               |
+
+Note:
+* Normal source extraction won't work
+* Don't know what or how much source contributes to FIR blob
+* Solution is to do list driven approach
+* use prior information to build data model, infer model on maps
+
+
+### Data Products = Data Model
+Wrong model = wrong results = wrong interpretation
+
+
+## Extreme Starformation?
+![](assets/MRR_2018_fig3R.png)<!-- .element height="60%" width="60%"-->
+
 
