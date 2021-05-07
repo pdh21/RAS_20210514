@@ -2,9 +2,9 @@
 
 |      | Discriminative                         | Generative                     |
 |------|--------------------------------|------------------------------------|
-| Models | <sub>Neural Networks, SVM, Decision trees</sub> | <sub>Probabilistic models</sub> |
-| Pros | <sub>Works with big data, v. good for predictions, flexible, can capture intricate structure</sub> | <sub>principled estimate of uncertainty, requires stronger modelling assumptions, easier to interpret</sub> |
-| Cons | <sub>difficult to impart domain knowledge, difficult to interpret, lack principled estimate of uncertainty</sub>| <sub>requires stronger modelling assumptions, challenging to fit, intractable with large data</sub> |
+| Models | <sub><sub>Neural Networks, SVM, Decision trees</sub></sub> | <sub><sub>Probabilistic models</sub></sub>|
+| Pros | <sub><sub>Works with big data, v. good for predictions, flexible, can capture intricate structure</sub> </sub>| <sub><sub>principled estimate of uncertainty, requires stronger modelling assumptions, easier to interpret</sub></sub> |
+| Cons | <sub><sub>difficult to impart domain knowledge, difficult to interpret, lack principled estimate of uncertainty</sub></sub>| <sub><sub>requires stronger modelling assumptions, challenging to fit, intractable with large data</sub></sub> |
 
 Note:
 **Discriminative** focus on directly learning a predictive model: given training data
@@ -31,6 +31,7 @@ high-fidelity models, they run one way, from parameters to synthetic data
 **Algorithms**: MCMC, NUTS HMC, Variational Inference, auto-differentiation
 
 **Software**:
+
 ![](https://mc-stan.org/docs/2_18/reference-manual/img/logo_tm.png)<!-- .element height="20%" width="20%" --> ![](https://cdn.rawgit.com/pymc-devs/pymc3/master/docs/logos/svg/PyMC3_banner.svg)<!-- .element height="20%" width="20%" --> ![](https://github.com/pyro-ppl/numpyro/blob/master/docs/source/_static/img/pyro_logo_small.png?raw=true)<!-- .element height="20%" width="20%" -->
 
 
