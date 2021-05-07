@@ -1,10 +1,12 @@
-## XID+SED: Probabilistic Deblender for Herschel
+### XID+SED: Probabilistic Deblender for Herschel
 XID+ developed as part of HELP, now being extended with SED fitting
+
 ![](assets/prob_graph_mod5.png)<!-- .element height="60%" width="60%"-->
 
 
 ### Emulating Cigale
 Use a multi input, multi output deepnet model, written in JAX
+
 ![](assets/cigale_emulator.png)<!-- .element height="60%" width="60%"-->
 
 

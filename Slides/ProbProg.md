@@ -1,4 +1,4 @@
-## How can Machine Learning Help?
+### How can Machine Learning Help?
 
 |      | Discriminative                         | Generative                     |
 |------|--------------------------------|------------------------------------|
@@ -19,7 +19,7 @@ We can write complex simulations to describe phenomena of interest
 * Dark matter sims (e.g. Millenium, Illustris, Bluetides etc)
 * Other disciplines (e.g. particle physics, climate models, etc)
 
-![](assets/probprog.png?raw=true)<!-- .element height="50%" width="50%" -->
+![](assets/probprog.png?raw=true)<!-- .element height="40%" width="40%" -->
 
 Note:
 Many domains of science have developed complex simulations to
@@ -28,14 +28,14 @@ high-fidelity models, they run one way, from parameters to synthetic data
 **Probabilistic Programming** Define probability models & solve automatically
 
 ### What has made probabilistic programming feasible?
-**Algorithms**: MCMC, NUTS HMC, Variational Inference, autodifferentiation
+**Algorithms**: MCMC, NUTS HMC, Variational Inference, auto-differentiation
 
 **Software**:
 ![](https://mc-stan.org/docs/2_18/reference-manual/img/logo_tm.png)<!-- .element height="20%" width="20%" --> ![](https://cdn.rawgit.com/pymc-devs/pymc3/master/docs/logos/svg/PyMC3_banner.svg)<!-- .element height="20%" width="20%" --> ![](https://github.com/pyro-ppl/numpyro/blob/master/docs/source/_static/img/pyro_logo_small.png?raw=true)<!-- .element height="20%" width="20%" -->
 
 
 ### Why is this the approach for my challenge?
-We have domain expertise:e.g. 
+We have domain expertise: e.g. 
 * SEDs, 
 * catalogues and photoz from other wavelengths
 * some idea of statistical relations e.g. Luminosity functions

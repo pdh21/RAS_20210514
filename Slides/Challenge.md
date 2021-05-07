@@ -1,4 +1,5 @@
-## Herschel: Informative yet confusing
+## Herschel
+### Informative yet confusing
 Herschel observations have been key for understanding extragalactic starformation
 * starformation occurs in dense gas clouds containing dust
 * redshifting of dust emission
@@ -33,7 +34,7 @@ Note:
 Wrong model = wrong results = wrong interpretation
 
 
-###Extreme Starformation?
+### Extreme Starformation?
 ![](assets/MRR_2018_fig3R.png)<!-- .element height="60%" width="60%"-->
 
 
