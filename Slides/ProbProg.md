@@ -2,9 +2,9 @@
 
 |      | Discriminative                         | Generative                     |
 |------|--------------------------------|------------------------------------|
-| Models | Neural Networks, SVM, Decision trees | Probabilistic models |
-| Pros | Works with big data, v. good for predictions, flexible, can capture intricate structure | principled estimate of uncertainty, requires stronger modelling assumptions, easier to interpret |
-| Cons | difficult to impart domain knowledge, difficult to interpret, lack principled estimate of uncertainty| requires stronger modelling assumptions, challenging to fit, intractable with large data |
+| Models | <sub>Neural Networks, SVM, Decision trees</sub> | <sub>Probabilistic models</sub> |
+| Pros | <sub>Works with big data, v. good for predictions, flexible, can capture intricate structure</sub> | <sub>principled estimate of uncertainty, requires stronger modelling assumptions, easier to interpret</sub> |
+| Cons | <sub>difficult to impart domain knowledge, difficult to interpret, lack principled estimate of uncertainty</sub>| <sub>requires stronger modelling assumptions, challenging to fit, intractable with large data</sub> |
 
 Note:
 **Discriminative** focus on directly learning a predictive model: given training data
@@ -14,10 +14,9 @@ if our objective is prediction, then it is simplest to solve that problem direct
 
 
 ### Generative models $\approx$ invertable simulators
-We can write complex simulations to describe phenomena of interest
-
-* Dark matter sims (e.g. Millenium, Illustris, Bluetides etc)
-* Other disciplines (e.g. particle physics, climate models, etc)
+We can write complex simulations
+* Dark Matter sim: e.g. Millenium, Illustris, Bluetides
+* Radiative Transfer models
 
 ![](assets/probprog.png?raw=true)<!-- .element height="40%" width="40%" -->
 
@@ -26,6 +25,7 @@ Many domains of science have developed complex simulations to
 describe phenomena of interest. While these simulations provide
 high-fidelity models, they run one way, from parameters to synthetic data
 **Probabilistic Programming** Define probability models & solve automatically
+
 
 ### What has made probabilistic programming feasible?
 **Algorithms**: MCMC, NUTS HMC, Variational Inference, auto-differentiation
