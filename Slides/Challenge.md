@@ -1,5 +1,5 @@
 ## Herschel: Informative yet confusing
-Herschel observations have been key for understanding extragalatic starformation
+Herschel observations have been key for understanding extragalactic starformation
 * starformation occurs in dense gas clouds containing dust
 * redshifting of dust emission
 * over 1270 deg.$^2$ coverage
