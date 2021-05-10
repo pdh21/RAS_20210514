@@ -14,6 +14,7 @@ Use a multi input, multi output DeepNet model, written in ![](https://raw.github
 
 #### Fitting Extreme Starburst Candidates
 ![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
+
 Two models:
 * Fit with all sources with >3 detections in opt/nir within 100 arcseconds
 * Same, but with only one source within 18 arcseconds of candidate
@@ -40,6 +41,7 @@ show marginalised plot of redshift, sfr,agn, with two models
 
 #### Taking it to the limit
 Inferring hierarchical relations directly on map e.g. SFR vs redshift relation
+
 ![](assets/hier_z_sfr.png)<!-- .element height="50%" width="50%"-->
 
 Currently only looking at areas around examining interesting sources,
@@ -47,6 +49,7 @@ Currently only looking at areas around examining interesting sources,
 
 
 ### Conclusions
+
 * Probabilistic Programming enables us to build and **infer** more complex probabilistic models
 * Probabilistic models enables us to combine data with our own expertise
 * Traditional data products are a lossy data compression for Herschel
