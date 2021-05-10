@@ -1,7 +1,7 @@
 ### Herschel: Informative yet confusing
 Key for understanding extragalactic starformation
 ![](assets/Dole_2006.png?raw=true)<!-- .element height="40%" width="40%"--> ![](assets/Denis_2013.png?raw=true)<!-- .element height="40%" width="40%"-->
-* over 1270 deg.$^2$ coverage
+* over 1270 deg.$^2$ coverage, accessible via [HELP](www.herschel.sussex.ac.uk) (Data release today!)
 * No planned successor
 
 Note:

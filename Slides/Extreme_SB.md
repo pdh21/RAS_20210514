@@ -1,18 +1,18 @@
 ### XID+SED: Probabilistic Deblender for Herschel
-XID+ developed as part of HELP, extend with SED fitting and hierarchical structure
+XID+, extended with SED fitting and hierarchical structure
+
+![](assets/pgm.png)<!-- .element height="45%" width="45%"-->
 $SFR_i = \mathcal{N}(m z_i +c,\sigma_{SFR})$
 
-![](assets/pgm.png)<!-- .element height="40%" width="40%"-->
 
-
-#### Emulating Cigale ![](https://gitlab.lam.fr/uploads/-/system/project/avatar/11/logo_cigale.png)<!-- .element height="20%" width="20%"-->
-Use a multi input, multi output DeepNet model, written in ![](https://raw.githubusercontent.com/google/jax/master/images/jax_logo_250px.png)<!-- .element height="20%" width="20%"-->
+### Emulating Cigale ![](https://gitlab.lam.fr/uploads/-/system/project/avatar/11/logo_cigale.png)<!-- .element height="5%" width="5%"-->
+Use a multi input, multi output DeepNet model, written in ![](https://raw.githubusercontent.com/google/jax/master/images/jax_logo_250px.png)<!-- .element height="5%" width="5%"-->
 
 ![](assets/emulator_net.png)<!-- .element height="40%" width="40%"-->
 ![](assets/cigale_emulator.png)<!-- .element height="90%" width="90%"-->
 
 
-#### Fitting Extreme Starburst Candidates
+### Fitting Extreme Starburst Candidates
 ![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
 
 Two models:
@@ -28,19 +28,18 @@ Two models:
 </video>
 
 
-#### Comparing the models
-Use full posterior to create a Bayesian P value maps (think a more robust residual map)
-With, <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> too little flux in model  </span>
+### Comparing the models
+Bayesian P value maps (think a more robust residual map)
+Note: <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> too little flux in model  </span>
 
-![](assets/Bpval.png)<!-- .element height="50%" width="50%"-->
-![](assets/Bpval_alt.png)<!-- .element height="50%" width="50%"-->
+![](assets/Bpval.png)<!-- .element height="55%" width="55%"-->
+![](assets/Bpval_alt.png)<!-- .element height="55%" width="55%"-->
 
 
 show marginalised plot of redshift, sfr,agn, with two models
 
 
-#### Taking it to the limit
-Inferring hierarchical relations directly on map e.g. SFR vs redshift relation
+### Infer hierarchical relations directly on map e.g. SFR vs redshift relation
 
 ![](assets/hier_z_sfr.png)<!-- .element height="50%" width="50%"-->
 
