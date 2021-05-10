@@ -21,19 +21,25 @@ Note:
 | Pros | Detects all bright sources     | Distributes flux to known galaxies |
 | Cons | Need to assign flux to sources | Miss unknown sources               |
 
+Remember: Data Products are part of Data Model
+
 Note:
 * Normal source extraction won't work
 * Don't know what or how much source contributes to FIR blob
 * Solution is to do list driven approach
 * use prior information to build data model, infer model on maps
-
-
-#### Data Products = Data Model
 Wrong model = wrong results = wrong interpretation
 
 
 #### Extreme Starformation?
+Have found interesting objects from blind catalogues,
+ e.g. High redshift starbursts (e.g. Riechers et al. (2013)), Lenses (e.g. Wardlow et al. (2013), Negrello et al. (2017) and Nayyeri et al. (2016)),
+ extreme starbursts( Rowan Robinson et al. (2018))
 ![](assets/MRR_2018_fig3R.png)<!-- .element height="60%" width="60%"-->
 <sub> Rowan Robinson et al. 2018 </sub>
 
+Note:
+Focus has been on objects with high flux (e.g. for Lenses >100mJy). Confirmed with follow up. There are thousands of other sources in the map.
+e.g. A hyperluminous obscured quasar at z=4.3 Efstathiou et al. 2021.
+Can we re-examine these extreme starbursts, using prior information to ascertain whether the interpreation holds, or if the blind catalogues problematic in this scenario
 

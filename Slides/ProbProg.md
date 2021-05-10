@@ -2,15 +2,14 @@
 
 |      | Discriminative                         | Generative                     |
 |------|--------------------------------|------------------------------------|
-| Models | <sub><sub>Neural Networks, SVM, Decision trees</sub></sub> | <sub><sub>Probabilistic models</sub></sub>|
-| Pros | <sub><sub>Works with big data, v. good for predictions, can capture intricate structure</sub> </sub>| <sub><sub>principled estimate of uncertainty, requires stronger modelling assumptions, easier to interpret</sub></sub> |
+| Pros | <sub><sub>Big data, v. good for predictions, can capture intricate structure</sub> </sub>| <sub><sub>principled estimate of uncertainty, requires stronger modelling assumptions, easier to interpret</sub></sub> |
 | Cons | <sub><sub>difficult to impart domain knowledge, difficult to interpret, lack principled estimate of uncertainty</sub></sub>| <sub><sub>requires stronger modelling assumptions, challenging to fit, often intractable with large data</sub></sub> |
 
 Note:
-**Discriminative** focus on directly learning a predictive model: given training data
+**Discriminative** e.g. Neural_net, svm, focus on directly learning a predictive model: given training data
 they learn a parametrised mapping from the inputs to the outputs that can be used directly to make predictions for new inputs 
 if our objective is prediction, then it is simplest to solve that problem directly, rather than try and solve some more general proble
-**Generative** models how data is generated, 
+**Generative** e.g. Naive bayes, probabilistic models, models how data is generated, 
 
 
 #### Generative models $\approx$ invertable simulators
@@ -25,7 +24,7 @@ Many domains of science have developed complex simulations to
 describe phenomena of interest. While these simulations provide
 high-fidelity models, they run one way, from parameters to synthetic data
 **Probabilistic Programming** Define probability models & solve automatically
-
+Up to fairly recently, inference has been challenging, required writing the inference algorithms for each problem. Prob prog is changing that, abstracts out the complexity of inference algorithms, allowing us to focus oin builing models for science
 
 #### What has made probabilistic programming feasible?
 **Algorithms**: MCMC, NUTS HMC, Variational Inference, auto-differentiation
