@@ -12,7 +12,7 @@ if our objective is prediction, then it is simplest to solve that problem direct
 **Generative** e.g. Naive bayes, probabilistic models, models how data is generated, 
 
 
-#### Generative models $\approx$ invertable simulators
+### Generative models $\approx$ invertable simulators
 We can write complex simulations
 * Dark Matter sim: e.g. Millenium, Illustris, Bluetides
 * Radiative Transfer models
@@ -26,7 +26,8 @@ high-fidelity models, they run one way, from parameters to synthetic data
 **Probabilistic Programming** Define probability models & solve automatically
 Up to fairly recently, inference has been challenging, required writing the inference algorithms for each problem. Prob prog is changing that, abstracts out the complexity of inference algorithms, allowing us to focus oin builing models for science
 
-#### What has made probabilistic programming feasible?
+
+### What has made probabilistic programming feasible?
 **Algorithms**: MCMC, NUTS HMC, Variational Inference, auto-differentiation
 
 **Software**:
@@ -34,7 +35,7 @@ Up to fairly recently, inference has been challenging, required writing the infe
 ![](https://mc-stan.org/docs/2_18/reference-manual/img/logo_tm.png)<!-- .element height="20%" width="20%" --> ![](https://cdn.rawgit.com/pymc-devs/pymc3/master/docs/logos/svg/PyMC3_banner.svg)<!-- .element height="20%" width="20%" --> ![](https://github.com/pyro-ppl/numpyro/blob/master/docs/source/_static/img/pyro_logo_small.png?raw=true)<!-- .element height="20%" width="20%" -->
 
 
-#### Why is this the approach for my challenge?
+### Why is this the approach for my challenge?
 We have domain expertise: e.g. 
 * SEDs, 
 * catalogues and photoz from other wavelengths

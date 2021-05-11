@@ -32,12 +32,14 @@ Wrong model = wrong results = wrong interpretation
 
 
 #### Extreme Starformation?
-Have found interesting objects from blind catalogues, e.g 
-* **High redshift starbursts** <sub><sub>(e.g. Riechers et al. (2013))</sub></sub>, 
-* **Lenses** <sub><sub>(e.g. Wardlow et al. (2013), Nayyeri et al. (2016), Negrello et al. (2017))</sub></sub>,
-* **extreme starbursts** <sub><sub> (e.g. Rowan Robinson et al. (2018))</sub></sub>
+Interesting objects from blind catalogues, e.g 
+<sub><sub>
+* **High redshift starbursts** (e.g. Riechers et al. (2013))
+* **Lenses** (e.g. Wardlow et al. (2013), Nayyeri et al. (2016), Negrello et al. (2017))
+* **extreme starbursts**  (e.g. Rowan Robinson et al. (2018))
+</sub></sub>
 
-![](assets/MRR_2018_fig3R.png)<!-- .element height="450%" width="450%"-->
+![](assets/MRR_2018_fig3R.png)<!-- .element height="45%" width="45%"-->
 <sub> Rowan Robinson et al. 2018 </sub>
 
 Note:

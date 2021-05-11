@@ -1,18 +1,21 @@
-### XID+SED: Probabilistic Deblender for Herschel
-XID+, extended with SED fitting and hierarchical structure
+### XID+SED: Probabilistic Deblender with SED emulator
 
 ![](assets/pgm.png)<!-- .element height="45%" width="45%"-->
+
 $SFR_i = \mathcal{N}(m z_i +c,\sigma_{SFR})$
 
 
 ### Emulating Cigale ![](https://gitlab.lam.fr/uploads/-/system/project/avatar/11/logo_cigale.png)<!-- .element height="5%" width="5%"-->
-Use a multi input, multi output DeepNet model, written in ![](https://raw.githubusercontent.com/google/jax/master/images/jax_logo_250px.png)<!-- .element height="5%" width="5%"-->
+Emulating complex models is not new (e.g. Silva et al. 2011, Alsing et al. 2020), using them inside a prob. model is!
+Use a MIMO NeuralNet model, written in ![](https://raw.githubusercontent.com/google/jax/master/images/jax_logo_250px.png)<!-- .element height="5%" width="5%"-->
 
 ![](assets/emulator_net.png)<!-- .element height="40%" width="40%"-->
-![](assets/cigale_emulator.png)<!-- .element height="90%" width="90%"-->
+
+Note:
+Using JAX, an Autograd and XLA python library. Used by Numpyro. Not only does Neural net speed up SED fitting, it makes it differentiable, allowing us to use HMC and SGD in inference.
 
 
-### Fitting Extreme Starburst Candidates
+### Fitting Extreme SB Candidates
 ![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
 
 Two models:
@@ -30,18 +33,18 @@ Two models:
 
 ### Comparing the models
 Bayesian P value maps (think a more robust residual map)
-Note: <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> too little flux in model  </span>
+Where: <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> too little flux in model  </span>
 
 ![](assets/Bpval.png)<!-- .element height="55%" width="55%"-->
 ![](assets/Bpval_alt.png)<!-- .element height="55%" width="55%"-->
 
 
-show marginalised plot of redshift, sfr,agn, with two models
+![](assets/joint_phys_params.png)<!-- .element height="55%" width="55%"-->
 
 
 ### Infer hierarchical relations directly on map e.g. SFR vs redshift relation
 
-![](assets/hier_z_sfr.png)<!-- .element height="50%" width="50%"-->
+![](assets/hier_z_sfr.png)<!-- .element height="25%" width="25%"--> ![](assets/z_sfr_relation.png)
 
 Currently only looking at areas around examining interesting sources,
 **Next Step**: Fit to larger regions to constrain hierarchical relations
