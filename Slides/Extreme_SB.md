@@ -20,7 +20,7 @@ Using JAX, an Autograd and XLA python library. Used by Numpyro. Not only does Ne
 
 Two models:
 * Fit with all sources with >3 detections in opt/nir within 100 arcseconds
-* Same, but with only one source within 18 arcseconds of candidate
+* Same, but with only one source within 18 '' of candidate
 
 
 <video style="max-width:100%" controls>
@@ -39,12 +39,13 @@ Where: <span style="color:Blue "> too much flux in model  </span>, <span style="
 ![](assets/Bpval_alt.png)<!-- .element height="55%" width="55%"-->
 
 
+### The Inferred Parameters
 ![](assets/joint_phys_params.png)<!-- .element height="55%" width="55%"-->
 
 
-### Infer hierarchical relations directly on map e.g. SFR vs redshift relation
+### Inferred hierarchical relation 
 
-![](assets/hier_z_sfr.png)<!-- .element height="25%" width="25%"--> ![](assets/z_sfr_relation.png)
+![](assets/hier_z_sfr.png)<!-- .element height="30%" width="30%"--> ![](assets/z_sfr_relation.png)<!-- .element height="30%" width="30%"--> 
 
 Currently only looking at areas around examining interesting sources,
 **Next Step**: Fit to larger regions to constrain hierarchical relations
