@@ -25,7 +25,7 @@ Not only does Neural net speed up SED fitting, it makes it differentiable, allow
 ![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
 
 Two models:
-* All sources with >=3 detections in opt/nir 
+* All sources with >=3 detections in Opt./NIR 
 * Same, but with only one source within 18'' of candidate
 
 Note:
@@ -48,7 +48,7 @@ The top is all sources, teh bottom is our alternate model. Hopefully you can see
 
 ### Comparing the models
 Bayesian P value maps (think robust residual map)
-Where: <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> not enough flux in model  </span>
+<span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> not enough flux in model  </span>
 
 ![](assets/Bpval.png)<!-- .element height="65%" width="65%"-->
 ![](assets/Bpval_alt.png)<!-- .element height="65%" width="65%"-->
@@ -67,9 +67,9 @@ Taking our preferred model forward, we can now look at the inferred physical par
 
 ### Inferred hierarchical relation 
 
-![](assets/hier_z_sfr.png)<!-- .element height="30%" width="30%"--> ![](assets/z_sfr_relation.png)<!-- .element height="30%" width="30%"--> 
+![](assets/hier_z_sfr.png)<!-- .element height="35%" width="35%"--> ![](assets/z_sfr_relation.png)<!-- .element height="35%" width="35%"--> 
 
-Currently only looking at areas around examining interesting sources,
+Currently only looking at areas around interesting sources,
 
 **Next Step**: Fit to larger regions to constrain hierarchical relations
 

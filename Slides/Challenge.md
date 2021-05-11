@@ -25,11 +25,12 @@ Note:
 Remember: Data Products are part of Data Model
 
 Note:
-* Normal source extraction won't work
-* Don't know what or how much source contributes to FIR blob
-* Solution is to do list driven approach
-* use prior information to build data model, infer model on maps
+Normal source extraction won't work
+ Don't know what or how much source contributes to FIR blob
+Solution is to do list driven approach
+use prior information to build data model, infer model on maps
 Wrong model = wrong results = wrong interpretation
+
 
 Interesting objects from blind catalogues, e.g 
 <sub><sub>
