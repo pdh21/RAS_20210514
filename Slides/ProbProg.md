@@ -35,10 +35,10 @@ Up to fairly recently, inference has been challenging, required writing the infe
 ![](https://mc-stan.org/docs/2_18/reference-manual/img/logo_tm.png)<!-- .element height="20%" width="20%" --> ![](https://cdn.rawgit.com/pymc-devs/pymc3/master/docs/logos/svg/PyMC3_banner.svg)<!-- .element height="20%" width="20%" --> ![](https://github.com/pyro-ppl/numpyro/blob/master/docs/source/_static/img/pyro_logo_small.png?raw=true)<!-- .element height="20%" width="20%" -->
 
 
-### Why is this the approach for my challenge?
+### Why is this the approach for me?
 We have domain expertise: e.g. 
 * SEDs, 
 * catalogues and photoz from other wavelengths
-* some idea of statistical relations e.g. Luminosity functions
+* some idea of statistical relations e.g. SFR vs redshift, Luminosity Function etc
 
-Usual approach of producing catalogues, fitting SEDs, learning LF etc very lossy for Herschel data.
+Usual approach of producing catalogues, fitting SEDs, is very lossy for Herschel data.
