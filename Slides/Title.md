@@ -1,6 +1,6 @@
 ### <span style="color:DarkBlue "> HELPing Solve Confusion through probabilistic programming  </span>
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBsZEY2qSec5DZ1NgZ1zRTs3vZlI0J8ZDLVQ&usqp=CAU)<!-- .element height="15%" width="15%" --> #### <span style="color:DarkRed "> ML and AI Applied to Astronomy  </span>
+#### ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBsZEY2qSec5DZ1NgZ1zRTs3vZlI0J8ZDLVQ&usqp=CAU)<!-- .element height="15%" width="15%" --> <span style="color:DarkRed "> ML and AI Applied to Astronomy  </span>
 
 #### <span style="color:DarkBlue ">Peter Hurley </span>
 <http://pdh21.github.io>

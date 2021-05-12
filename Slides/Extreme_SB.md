@@ -24,6 +24,7 @@ Not only does Neural net speed up SED fitting, it makes it differentiable, allow
 ![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
 
 1) All sources with >=3 detections in Opt./NIR 
+
 2) Same, but with only one source within 18'' of candidate
 
 Note:
@@ -67,7 +68,7 @@ Taking our preferred model forward, we can now look at the inferred physical par
 
 ![](assets/hier_z_sfr.png)<!-- .element height="35%" width="35%"--> ![](assets/z_sfr_relation.png)<!-- .element height="35%" width="35%"--> 
 
-Currently only looking at areas around interesting sources,
+Currently fitting area around interesting sources,
 
 **Next Step**: Fit to larger regions to constrain hierarchical relations
 
@@ -80,8 +81,10 @@ Fitting on samll regions is interesting, but the real gain will be extending to 
 
 ### Conclusions
 
-* Probabilistic Programming enables us to build and **infer** more complex probabilistic models
-* Probabilistic models enables us to combine data with our own expertise
-* Traditional data products are a lossy data compression for Herschel
-* An alternative interpretation for many of the Extreme Starburst candidates
+<span style="color:DarkBlue "> * Probabilistic Programming enables us to build and **infer** more complex probabilistic models </span>
+<span style="color:DarkRed "> * Probabilistic models enables us to combine data with our own expertise </span>
+<span style="color:DarkBlue "> * Traditional data products are a lossy data compression for Herschel </span>
+<span style="color:DarkRed "> * An alternative interpretation for many of the Extreme Starburst candidates </span>
+
+![](assets/Help_Logo.png?raw=true)<!-- .element height="15%" width="15%" --> http://herschel.sussex.ac.uk/
 
