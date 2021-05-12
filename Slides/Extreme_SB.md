@@ -12,21 +12,19 @@ SFR linearly increases with redshift, with some dispersion. With the global para
 
 ### Emulating Cigale ![](https://gitlab.lam.fr/uploads/-/system/project/avatar/11/logo_cigale.png)<!-- .element height="5%" width="5%"-->
 Emulating complex models is not new (e.g. Silva et al. 2011, Alsing et al. 2020), using them inside a prob. model is!
-Use a MIMO NeuralNet model, written in ![](https://raw.githubusercontent.com/google/jax/master/images/jax_logo_250px.png)<!-- .element height="5%" width="5%"-->
 
 ![](assets/emulator_net.png)<!-- .element height="40%" width="40%"-->
 
 Note:
 To incorporate SED models, we can emulate our favrouite SED code using neural networks. This is not a new idea, having beenn used to emualte the GRASIl radiatiabve trasnfer code and SPS models. What is novel, is using them inside a probabilisitic model.
-Not only does Neural net speed up SED fitting, it makes it differentiable, allowing us to use HMC and SGD in inference. Using JAX, an Autograd and XLA python library. Used by Numpyro
+Not only does Neural net speed up SED fitting, it makes it differentiable, allowing us to use HMC and SGD in inference. Build MIMO NeuralNet model Using JAX, an Autograd and XLA python library. Used by Numpyro
 
 
 ### Fitting Extreme SB Candidates
 ![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
 
-Two models:
-* All sources with >=3 detections in Opt./NIR 
-* Same, but with only one source within 18'' of candidate
+1) All sources with >=3 detections in Opt./NIR 
+2) Same, but with only one source within 18'' of candidate
 
 Note:
 We are using this XID+SED to explore the extreme starburst candidates, identified from the blind catalogue. And to show you how this works, lets look at an example. We construct two models.
@@ -42,7 +40,7 @@ Our alternative model uses the same, but to mimic the assumption of the blind ca
 </video>
 
 Note:
-We can infer both models on the Hershcel maps. Because we using HMC to fit the maps, we have numerous posterior samples, and can generate the possible maps we would expect to observe. These animations show the possible maps we thing are reasonable from our model, having inferred on the realdata.
+We can infer both models on the Herschel maps. Because we using HMC to fit the maps, we have numerous posterior samples, and can generate the possible maps we would expect to observe. These animations show the possible maps we thing are reasonable from our model, having inferred on the realdata.
 The top is all sources, teh bottom is our alternate model. Hopefully you can see see that the top more closely resembles the original map, though the diffreence is subtle.
 
 
@@ -78,7 +76,6 @@ That example has demonstrated a useful outcome of this appraoch for investigatin
 Remember we imparted a linear relationship between SFR and redshift, but gavethe model the freedom to find m, c and dispersion.
 Our model also provides us the information on these hierarchical parameters. Again , red is prior values, and blue is inferred. On the right hand side, we can see what that relation looks like, and ohwo our individual galaxies fit on top.
 Fitting on samll regions is interesting, but the real gain will be extending to fit larger regions, and moving beyond the linear relationship to more principled parameterisations such as the Schecter functions.
-
 
 
 ### Conclusions

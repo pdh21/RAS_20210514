@@ -22,11 +22,11 @@ Note:
 | Pros | Detects all bright sources     | Distributes flux to known galaxies |
 | Cons | Need to assign flux to sources | Miss unknown sources               |
 
-Remember: Data Products are part of Data Model
+Data Products are part of Data Model
 
 Note:
 Normal source extraction won't work
- Don't know what or how much source contributes to FIR blob
+Don't know what or how much source contributes to FIR blob
 Solution is to do list driven approach
 use prior information to build data model, infer model on maps
 Wrong model = wrong results = wrong interpretation
