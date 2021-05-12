@@ -81,10 +81,10 @@ Fitting on samll regions is interesting, but the real gain will be extending to 
 
 ### Conclusions
 
-<span style="color:DarkBlue "> * Probabilistic Programming enables us to build and **infer** more complex probabilistic models </span>
-<span style="color:DarkRed "> * Probabilistic models enables us to combine data with our own expertise </span>
-<span style="color:DarkBlue "> * Traditional data products are a lossy data compression for Herschel </span>
-<span style="color:DarkRed "> * An alternative interpretation for many of the Extreme Starburst candidates </span>
+* <span style="color:DarkBlue "> Probabilistic Programming enables us to build and **infer** more complex probabilistic models </span>
+* <span style="color:DarkRed "> Probabilistic models enables us to combine data with our own expertise </span>
+* <span style="color:DarkBlue "> Traditional data products are a lossy data compression for Herschel </span>
+* <span style="color:DarkRed "> An alternative interpretation for many of the Extreme Starburst candidates </span>
 
-![](assets/Help_Logo.png?raw=true)<!-- .element height="15%" width="15%" --> http://herschel.sussex.ac.uk/
+![](assets/Help_Logo.png?raw=true)<!-- .element height="15%" width="15%" --> [http://herschel.sussex.ac.uk/](http://herschel.sussex.ac.uk/)
 

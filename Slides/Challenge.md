@@ -35,11 +35,11 @@ Wrong model = wrong results = wrong interpretation
 Interesting objects from blind catalogues, e.g 
 <sub><sub>
 * **High redshift starbursts** e.g. Riechers et al. 2013
-* **Lenses** e.g. Wardlow et al. 2013, Nayyeri et al. 2016, Negrello et al. 2017
+* **Lenses** e.g. Wardlow et al. 2013, Negrello et al. 2017
 * **extreme starbursts**  e.g. Rowan Robinson et al. 2018
 </sub></sub>
 
-![](assets/MRR_2018_fig3R.png)<!-- .element height="40%" width="40%"-->
+![](assets/MRR_2018_fig3R.png)<!-- .element height="35%" width="35%"-->
 <sub> Rowan Robinson et al. 2018 </sub>
 
 Note:
