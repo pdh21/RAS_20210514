@@ -34,13 +34,14 @@ Wrong model = wrong results = wrong interpretation
 
 Interesting objects from blind catalogues, e.g 
 <sub><sub>
-* **High redshift starbursts** e.g. Riechers et al. 2013
-* **Lenses** e.g. Wardlow et al. 2013, Negrello et al. 2017
+* **High redshift starbursts** e.g. Riechers et al. 2013 ![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="25%" width="25%"--> 
+
+* **Lenses** e.g. Wardlow et al. 2013, Negrello et al. 2017 ![](SDP81_ALMA_HST.jpeg)<!-- .element height="25%" width="25%"-->
+
 * **extreme starbursts**  e.g. Rowan Robinson et al. 2018
 </sub></sub>
 
-![](assets/MRR_2018_fig3R.png)<!-- .element height="35%" width="35%"-->
-<sub> Rowan Robinson et al. 2018 </sub>
+![](assets/MRR_2018_fig3R.png)<!-- .element height="25%" width="25%"-->
 
 Note:
 Focus has been on objects with high flux (e.g. for Lenses >100mJy). Confirmed with follow up. There are thousands of other sources in the map.
