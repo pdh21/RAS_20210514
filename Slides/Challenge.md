@@ -34,12 +34,15 @@ Wrong model = wrong results = wrong interpretation
 
 Interesting objects from blind catalogues,
 
-||||
-|------|--------------------------------|------------------------------------|
-| ![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="10%" width="10%"--> |<sub><sub>**High redshift starbursts**</sub></sub> | <sub><sub>e.g. Riechers et al. 2013</sub></sub> |
-| ![](assets/SDP81_ALMA_HST.jpeg)<!-- .element height="10%" width="10%"--> | <sub><sub> **Lenses**</sub></sub> |<sub><sub>e.g. Wardlow et al. 2013, Negrello et al. 2017</sub></sub> |
-| ![](assets/MRR_2018_fig3R.png)<!-- .element height="10%" width="10%"--> | <sub><sub> **extreme starbursts**</sub></sub> |<sub><sub> e.g. Rowan Robinson et al. 2018</sub></sub>|
+* **High redshift starbursts** : <sub><sub>e.g. Riechers et al. 2013</sub></sub>
+* **Lenses** <sub><sub> e.g. Wardlow et al. 2013, Negrello et al. 2017</sub></sub>
+* **extreme starbursts**  <sub><sub> e.g. Rowan Robinson et al. 2018</sub></sub>
 
+<section>
+	<p class="fragment" data-fragment-index="3">![](assets/MRR_2018_fig3R.png)<!-- .element height="25%" width="25%"--></p>
+	<p class="fragment" data-fragment-index="1">![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="10%" width="10%"--></p>
+	<p class="fragment" data-fragment-index="2">![](assets/SDP81_ALMA_HST.jpeg)<!-- .element height="10%" width="10%"--></p>
+</section>
 
 Note:
 Focus has been on objects with high flux (e.g. for Lenses >100mJy). Confirmed with follow up. There are thousands of other sources in the map.
