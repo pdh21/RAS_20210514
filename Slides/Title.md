@@ -6,3 +6,6 @@
 <http://pdh21.github.io>
 
  ![](https://github.com/H-E-L-P/H-E-L-P.github.io/blob/master/assets/images/sussex.jpg?raw=true)<!-- .element height="15%" width="15%" --> ![](assets/Help_Logo.png?raw=true)<!-- .element height="15%" width="15%" --> ![](assets/logo_en.gif)<!-- .element height="15%" width="15%" -->
+
+Note:
+Hello everyone, Pete Hurley, one of hte project scientists on HELP. I will give a brief into how we are using probabilisitic programming, using products developed as part of the Herschel Extragalactic Legacy project

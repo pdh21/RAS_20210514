@@ -3,8 +3,8 @@
 ![](assets/pgm_annotated.png)<!-- .element height="80%" width="80%"-->
 
 Note:
-Using this probabbilisitc appraoch, we developed XID+ as part of HELP to use prior information on sources to extract FIR fluxes. 
-For the HELP DR1, we have only used positional information, as illustrated by the black variables in our graphical model. Taking this further, we can now incoprorate SED modelling and photometric redshifts as additioanl prior information. We can also impart more domain knowledge, that to first order,
+Using this probabilisitc appraoch, we developed XID+ as part of HELP to use prior information on sources to extract FIR fluxes. 
+For the HELP DR1, we used positional information, as illustrated by the black variables in our probabilisitic graphical model. Taking this further, we can now incoprorate SED modelling via an emulator and use HELP photometric redshifts as additioanl prior information. We can also impart more domain knowledge, that to first order,
 SFR linearly increases with redshift, with some dispersion. With the global parameters m, c and sigma_sfr governing the strength of that relation.
 
 
@@ -16,7 +16,7 @@ Using them inside a prob. model is!
 ![](assets/emulator_net.png)<!-- .element height="40%" width="40%"-->
 
 Note:
-To incorporate SED models, we can emulate our favourite SED code using neural networks. This is not a new idea, having beenn used to emualte the GRASIl radiatiabve trasnfer code and SPS models. What is novel, is using them inside a probabilisitic model.
+Incoporating SED models is not straightforward. THey are complex models. However, we can emulate our favourite SED code using neural networks. This is not a new idea, having been used to emualte the GRASIl radiatiabve trasnfer code and SPS models. What is novel, is using them inside a probabilisitic model.
 Not only does Neural net speed up SED fitting, it makes it differentiable, allowing us to use HMC and SGD in inference. Build MIMO NeuralNet model Using JAX, an Autograd and XLA python library. Used by Numpyro
 
 
@@ -30,7 +30,7 @@ Two Models:
 2) Same, but with **only one** source within 18'' of candidate
 
 Note:
-We are using this XID+SED to explore the extreme starburst candidates, identified from the blind catalogue. And to show you how this works, lets look at an example. We construct two models.
+We are using this XID+SED to explore the extreme starburst candidates, identified from the blind catalogue. And to show you how this works, lets look at an example. We do this by constructing two models.
 The first contains all the sources from the HELP masterlist with detections in 3 or more opt/nir bands, including the candidate.
 Our alternative model uses the same, but to mimic the assumption of the blind catalogue we remove all sources that are within 18'' of the candidate.
 
@@ -44,8 +44,10 @@ Bayesian P value maps (think robust residual map)
 ![](assets/Bpval_alt.png)<!-- .element height="60%" width="60%"-->
 
 Note:
-The Bayesian P value maps are a better visualisation for checking which model is most appropriate and are constructed by comparing all the posterior sampels, seen in hte previous animations, with the original data. You can think of htem as moer robust resifual maps, with blue pixels showing where the model has too much flux comapred tot he data, and red for where the model create enough flux seen in the data
-As you can see, our first model provides an almost perfect fit to the data,where as the alternate model has a poor fit. 
+Because we are using a Bayesian inference approach to fitting hte maps, we dont get one most likely answer, we get a range of possible fits, that are deemed probable. WE can make use of all the probable fits to construct a more robust residual map, which we call Bayesian P value maps. They provide a visual check for where a model is appropriate. 
+Where the model has too much flux comapred tot he data, and red for where the model create enough flux seen in the data
+As you can see, our first model provides an almost perfect fit to the data,where as the alternate model, which is mimicing the approximation of hte blind catalogue, i.e. that all the flux belongs to one galaxy, has a poor fit. 
+By using the blind catalogues on their own, without considering whether it is an appropriate data model, can lead to misinterpreatitons and is why we want to model as much of our data pipeline as possible simultansoly.
 
 
 ### The Inferred Parameters
@@ -65,7 +67,7 @@ Currently fitting area around interesting sources,
 
 Note:
 That example has demonstrated a useful outcome of this appraoch for investigating particualr objects in more detail. Another outcome is the inferred hoerarchica lrelation.
-Remember we imparted a linear relationship between SFR and redshift, but gavethe model the freedom to find m, c and dispersion.
+Remember we imparted a linear relationship between SFR and redshift, but gave the model the freedom to find m, c and dispersion.
 Our model also provides us the information on these hierarchical parameters. Again , red is prior values, and blue is inferred. On the right hand side, we can see what that relation looks like, and ohwo our individual galaxies fit on top.
 Fitting on samll regions is interesting, but the real gain will be extending to fit larger regions, and moving beyond the linear relationship to more principled parameterisations such as the Schecter functions.
 
