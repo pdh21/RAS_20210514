@@ -40,8 +40,8 @@ Bayesian P value maps (think robust residual map)
 
 <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> not enough flux in model  </span>
 
-![](assets/Bpval.png)<!-- .element height="65%" width="65%"-->
-![](assets/Bpval_alt.png)<!-- .element height="65%" width="65%"-->
+![](assets/Bpval.png)<!-- .element height="60%" width="60%"-->
+![](assets/Bpval_alt.png)<!-- .element height="60%" width="60%"-->
 
 Note:
 The Bayesian P value maps are a better visualisation for checking which model is most appropriate and are constructed by comparing all the posterior sampels, seen in hte previous animations, with the original data. You can think of htem as moer robust resifual maps, with blue pixels showing where the model has too much flux comapred tot he data, and red for where the model create enough flux seen in the data
@@ -49,7 +49,7 @@ As you can see, our first model provides an almost perfect fit to the data,where
 
 
 ### The Inferred Parameters
-![](assets/joint_phys_params.png)<!-- .element height="65%" width="65%"-->
+![](assets/joint_phys_params.png)<!-- .element height="55%" width="55%"-->
 
 Note:
 Taking our preferred model forward, we can now look at the inferred physical parameters. Our joint plot shows the prior in red, i.e. all the possible values out model would allow before inferring on the data, and our posterior in blue. We can see that the redshift and SFR are considerbaly less than the what you would get if you were to use the blind catalogues
