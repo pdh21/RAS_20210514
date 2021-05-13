@@ -37,6 +37,7 @@ Our alternative model uses the same, but to mimic the assumption of the blind ca
 
 ### Comparing the models
 Bayesian P value maps (think robust residual map)
+
 <span style="color:Blue "> too much flux in model  </span>, <span style="color:Red "> not enough flux in model  </span>
 
 ![](assets/Bpval.png)<!-- .element height="65%" width="65%"-->
