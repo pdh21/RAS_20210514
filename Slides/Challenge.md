@@ -32,12 +32,14 @@ use prior information to build data model, infer model on maps
 Wrong model = wrong results = wrong interpretation
 
 
-Interesting objects from blind catalogues, e.g 
+Interesting objects from blind catalogues,
+
 <sub><sub>
-![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="10%" width="10%"--> * **High redshift starbursts** : e.g. Riechers et al. 2013
-![](assets/SDP81_ALMA_HST.jpeg)<!-- .element height="10%" width="10%"--> * **Lenses** 
-    e.g. Wardlow et al. 2013, Negrello et al. 2017
-* **extreme starbursts**  e.g. Rowan Robinson et al. 2018
+![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="10%" width="10%"--> **High redshift starbursts** : e.g. Riechers et al. 2013
+
+![](assets/SDP81_ALMA_HST.jpeg)<!-- .element height="10%" width="10%"-->  **Lenses** e.g. Wardlow et al. 2013, Negrello et al. 2017
+
+**extreme starbursts**  e.g. Rowan Robinson et al. 2018
 </sub></sub>
 
 ![](assets/MRR_2018_fig3R.png)<!-- .element height="25%" width="25%"-->
