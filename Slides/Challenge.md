@@ -34,9 +34,9 @@ Wrong model = wrong results = wrong interpretation
 
 Interesting objects from blind catalogues, e.g 
 <sub><sub>
-* **High redshift starbursts** e.g. Riechers et al. 2013 ![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="25%" width="25%"--> 
+* **High redshift starbursts** e.g. Riechers et al. 2013 ![](assets/hfls3_SPIRE_small.jpeg)<!-- .element height="5%" width="5%"--> 
 
-* **Lenses** e.g. Wardlow et al. 2013, Negrello et al. 2017 ![](SDP81_ALMA_HST.jpeg)<!-- .element height="25%" width="25%"-->
+* **Lenses** e.g. Wardlow et al. 2013, Negrello et al. 2017 ![](assets/SDP81_ALMA_HST.jpeg)<!-- .element height="5%" width="5%"-->
 
 * **extreme starbursts**  e.g. Rowan Robinson et al. 2018
 </sub></sub>
