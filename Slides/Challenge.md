@@ -39,8 +39,8 @@ Interesting objects from blind catalogues,
 * **extreme starbursts**: e.g. Rowan Robinson et al. 2018
 
 <div class="r-stack">
-  <img class="fragment fade-out" data-fragment-index="0" src="./assets/hfls3_SPIRE_small.jpeg" width="20%" height="40%">
-  <img class="fragment current-visible" data-fragment-index="0" src="./assets/SDP81_ALMA_HST.jpeg" width="20%" height="40%">
+  <img class="fragment fade-out" data-fragment-index="0" src="./assets/hfls3_SPIRE_small.jpeg" width="40%" height="80%">
+  <img class="fragment current-visible" data-fragment-index="0" src="./assets/SDP81_ALMA_HST.jpeg" width="40%" height="80%">
   <img class="fragment" src="assets/MRR_2018_fig3R.png" width="40%" height="80%">
 </div>
 

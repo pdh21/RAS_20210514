@@ -1,6 +1,6 @@
 ### XID+SED: Probabilistic De-blender with SED emulator
 
-![](assets/pgm_annotated.png)<!-- .element height="60%" width="60%"-->
+![](assets/pgm_annotated.png)<!-- .element height="80%" width="80%"-->
 
 Note:
 Using this probabbilisitc appraoch, we developed XID+ as part of HELP to use prior information on sources to extract FIR fluxes. 
