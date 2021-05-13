@@ -49,7 +49,7 @@ As you can see, our first model provides an almost perfect fit to the data,where
 
 
 ### The Inferred Parameters
-![](assets/joint_phys_params.png)<!-- .element height="55%" width="55%"-->
+![](assets/joint_phys_params.png)<!-- .element height="65%" width="65%"-->
 
 Note:
 Taking our preferred model forward, we can now look at the inferred physical parameters. Our joint plot shows the prior in red, i.e. all the possible values out model would allow before inferring on the data, and our posterior in blue. We can see that the redshift and SFR are considerbaly less than the what you would get if you were to use the blind catalogues
