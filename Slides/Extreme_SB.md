@@ -8,22 +8,26 @@ For the HELP DR1, we have only used positional information, as illustrated by th
 SFR linearly increases with redshift, with some dispersion. With the global parameters m, c and sigma_sfr governing the strength of that relation.
 
 
-### Emulating Cigale ![](https://gitlab.lam.fr/uploads/-/system/project/avatar/11/logo_cigale.png)<!-- .element height="5%" width="5%"-->
-Emulating complex models is not new (e.g. Silva et al. 2011, Alsing et al. 2020), using them inside a prob. model is!
+### Emulating Cigale ![](https://gitlab.lam.fr/uploads/-/system/project/avatar/11/logo_cigale.png)<!-- .element height="8%" width="8%"-->
+Emulating complex models is not new (e.g. Silva et al. 2011, Alsing et al. 2020)
+
+Using them inside a prob. model is!
 
 ![](assets/emulator_net.png)<!-- .element height="40%" width="40%"-->
 
 Note:
-To incorporate SED models, we can emulate our favrouite SED code using neural networks. This is not a new idea, having beenn used to emualte the GRASIl radiatiabve trasnfer code and SPS models. What is novel, is using them inside a probabilisitic model.
+To incorporate SED models, we can emulate our favourite SED code using neural networks. This is not a new idea, having beenn used to emualte the GRASIl radiatiabve trasnfer code and SPS models. What is novel, is using them inside a probabilisitic model.
 Not only does Neural net speed up SED fitting, it makes it differentiable, allowing us to use HMC and SGD in inference. Build MIMO NeuralNet model Using JAX, an Autograd and XLA python library. Used by Numpyro
 
 
 ### Fitting Extreme SB Candidates
-![](assets/original_map.png)<!-- .element height="90%" width="90%"-->
+![](assets/original_map.png)<!-- .element height="80%" width="80%"-->
+
+Two Models:
 
 1) All sources with >=3 detections in Opt./NIR 
 
-2) Same, but with only one source within 18'' of candidate
+2) Same, but with **only one** source within 18'' of candidate
 
 Note:
 We are using this XID+SED to explore the extreme starburst candidates, identified from the blind catalogue. And to show you how this works, lets look at an example. We construct two models.
